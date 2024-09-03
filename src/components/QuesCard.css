@@ -1,0 +1,25 @@
+.card {
+    position: relative;
+    width: auto;
+    height: auto;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+
+.flipped {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    
+    backface-visibility: hidden;
+}
+
+.back {
+    transform: rotateY(180deg);
+    
+}
+
+.timer {
+    margin-top: 10px;
+}

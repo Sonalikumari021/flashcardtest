@@ -1,0 +1,7 @@
+[
+    {
+        "question":"What is the primary purpose of React?",
+        "options":["To style HTML pages","To manage database","To build user interface","To perform server-side rendering"],
+        "correctanswer":"To build user interface"
+    }
+]
